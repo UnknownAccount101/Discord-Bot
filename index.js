@@ -99,8 +99,4 @@ bot.on("message", message => {
   
 });
   
-try {
-    bot.login(botconfig.token);
-} catch(err) {
-    console.log(err);
-}
+bot.login(process.env.token);
