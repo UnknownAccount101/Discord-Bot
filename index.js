@@ -99,4 +99,4 @@ bot.on("message", message => {
   
 });
   
-bot.login(process.env.token1);
+bot.login(process.env.token);
